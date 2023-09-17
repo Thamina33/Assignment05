@@ -1,3 +1,4 @@
+import 'package:assignment05/Galary.dart';
 import 'package:assignment05/HomeScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: Galary(),
     );
   }
 }
